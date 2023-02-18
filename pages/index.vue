@@ -33,7 +33,7 @@
           </button>
         </div>
         <div class="col animation">
-          <Lines col="17" row="15" />
+          <Lines myVw="685" myVh="605" />
         </div>
       </div>
       <div class="workSmarter">

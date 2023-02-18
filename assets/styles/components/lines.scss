@@ -1,21 +1,25 @@
 .circles {
   width: 100%;
   z-index: 99999;
-  .circleRow {
-    margin-bottom: 40px;
-    .circle {
-      display: inline-block;
-      width: 3px;
-      height: 3px;
-      transition: background-color 1s;
-      border-radius: 50%;
-    }
-    .grayCircle {
-      background-color: rgba(217, 217, 217, 0.4);
-    }
-    .whitCircle {
-      background-color: white;
-    }
+  position: relative;
+  width: 685px;
+  height: 605px;
+  .circle {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    transition: background-color 0.5s;
+    transition: width 0.5s;
+    transition: translateX 0.5s;
+
+    border-radius: 50%;
+    position: absolute;
+  }
+  .grayCircle {
+    background-color: rgba(217, 217, 217, 0.4);
+  }
+  .whitCircle {
+    background-color: white;
   }
 }
 .lines {
