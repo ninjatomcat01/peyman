@@ -14,7 +14,7 @@
         <div class="scroll d-flex justify-content-end align-items-center">
           <span class="scrollTitle">Scroll Down</span>
           <div class="scrollIcon">
-            <span class="circle"></span>
+            <span class="scrollCircle"></span>
           </div>
         </div>
       </div>
@@ -183,10 +183,204 @@
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer lang="en" />
     </div>
-    <div class="faHome" v-else>
+    <div class="faHome irancell" v-else>
       <Header lang="fa" @change="change" />
+      <div class="topDiv">
+        <h3 class="mont">Peyman Profile Asia Co</h3>
+        <h1>تولید کننده محصولات آلومینیومی با پیشرفته ترین تجهیزات</h1>
+        <button class="effectBtn">
+          <img src="/icons/blackCall.svg" class="blackCallIcon" />
+          <span>تماس با ما</span>
+        </button>
+        <div class="scroll d-flex justify-content-end align-items-center">
+          <div class="scrollIcon">
+            <span class="scrollCircle"></span>
+          </div>
+          <span class="scrollTitle">Scroll Down</span>
+        </div>
+      </div>
+      <div class="whoWeAre d-flex justify-content-between align-items-center">
+        <div class="texts">
+          <h1 class="mont">Who We Are?</h1>
+          <div class="mb-4 d-flex justify-content-between align-items-center">
+            <h2>درباره ی ما</h2>
+            <div class="blueLine"></div>
+          </div>
+          <p>
+            شرکت پیمان پروفیل آسیا در سال 1395 با تحقیق در زمینه صنعت آلومینیوم
+            و نظارت بر نیاز بازار و ساخت سه سالن و با گذشت زمان و ارتقاء مجموعه
+            به هفت سالن و تجهیز آنها به پیشرفته ترین ابزار تولید آغاز به کار
+            کرد. محصولات آلومینیومی ...
+          </p>
+          <button class="effectBtn">
+            <span>بیشتر بخوانید</span>
+          </button>
+        </div>
+        <div class="col animation">
+          <Lines myVw="685" myVh="605" />
+        </div>
+      </div>
+      <div class="workSmarter">
+        <h2 class="mont">Work smarter. React faster. Think</h2>
+        <div class="d-flex justify-content-between mb-4">
+          <div class="d-flex align-items-center">
+            <h3>چشم انداز ما</h3>
+            <div class="blueLine"></div>
+          </div>
+          <h2 class="mont">.bigger</h2>
+        </div>
+        <p>اهداف و برنامه های آتی این شرکت بر اساس سیاست های زیر است :</p>
+        <div class="d-flex justify-content-between icons">
+          <div class="iconsDiv">
+            <img src="/icons/smarterIcon1.svg" alt="" />
+            <div>تجهیز و به روز رسانی ماشین آلات</div>
+          </div>
+          <div class="iconsDiv">
+            <img src="/icons/smarterIcon2.svg" alt="" />
+            <div>ارتقاء مداوم دانش فنی</div>
+          </div>
+          <div class="iconsDiv">
+            <img src="/icons/smarterIcon3.svg" alt="" />
+            <div>شناخت بازار این صنعت</div>
+          </div>
+          <div class="iconsDiv">
+            <img src="/icons/smarterIcon4.svg" alt="" />
+            <div>کسب استانداردهای نوین</div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="homeProduct1 d-flex align-items-center justify-content-between"
+      >
+        <div class="texts">
+          <h2>محصولات صنعتی<span>.</span></h2>
+          <p>
+            آلومینیوم با رنگ نقره‌ای و وزن مخصوص پایین، کاربرد بسیار بالایی در
+            صنایع دارد.که بر اساس ویژگی‌های مختلف محصولات و نوع کاربرد آن‌ها
+            می‌توان ...
+          </p>
+          <button class="effectBtn">
+            <span>اطلاعات بیشتر</span>
+          </button>
+        </div>
+        <img src="/images/faHomeProduct1.png" alt="" />
+      </div>
+      <div
+        class="homeProduct2 d-flex align-items-center justify-content-between"
+      >
+        <div class="texts">
+          <h2>محصولات ساختمانی<span>.</span></h2>
+          <p>
+            امروزه یکی از متنوع‌ترین و پرکاربردةرین قطعات آلومینیوم در صنعت
+            ساختمان می‌باشد.این عنصر به علت مقاومت در برابر خوردگی و اکسید
+            شدن...
+          </p>
+          <button class="effectBtn">
+            <span>اطلاعات بیشتر</span>
+          </button>
+        </div>
+        <img src="/images/faHomeProduct2.png" alt="" />
+      </div>
+      <div
+        class="homeProduct3 d-flex align-items-center justify-content-between"
+      >
+        <div class="texts">
+          <h2>محصولات اختصاصی<span>.</span></h2>
+          <p>
+            قابلیت محاسبه ، طراحی و ساخت قالب و همچنین مشاوره در خصوص ریخته گری
+            و تولید .
+          </p>
+          <button class="effectBtn">
+            <span> اطلاعات بیشتر </span>
+          </button>
+        </div>
+        <img src="/images/faHomeProduct3.png" alt="" />
+      </div>
+      <div class="units">
+        <div class="unitsHead">
+          <div class="mb-4 d-flex justify-content-between align-items-center">
+            <div>
+              <div class="blueLine"></div>
+              <h3>واحد های تولیدی</h3>
+            </div>
+            <h2 class="mont">.Units Of Our Company</h2>
+          </div>
+          <button class="effectBtn"><span>بیشتر بخوانید</span></button>
+        </div>
+        <div class="items d-flex justify-content-around flex-wrap">
+          <div
+            v-for="item in faUnitItems"
+            :key="item.id"
+            class="item"
+            :class="{ marginItem: item.id % 2 == 0 }"
+            :id="`item${item.id}`"
+          >
+            <div v-if="item.id <= 9" class="number mont">0{{ item.id }}.</div>
+            <div v-else class="number mont">{{ item.id }}.</div>
+            <div class="title">{{ item.title }}</div>
+            <div class="text">{{ item.text }}</div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="
+          animationImage
+          col-12
+          d-flex
+          justify-content-center
+          align-items-center
+          px-0
+        "
+      >
+        <img src="/images/animationImage.png" v-show="!video" id="trigger" />
+        <img
+          src="/images/videoImg.jpg"
+          class="col-12 px-0 video"
+          v-show="video"
+        />
+      </div>
+      <div class="news">
+        <div class="newsHead">
+          <div class="d-flex justify-content-between">
+            <div class="faNew">
+              <div class="d-flex align-items-center mb-4">
+                <h3>اخبار</h3>
+                <div class="blueLine"></div>
+              </div>
+              <p>
+                اخبار مرتبط با صنعت آلومینیوم را با شما به اشتراک می گذاریم.
+              </p>
+            </div>
+            <div class="enNew">
+              <h2 class="mont">.News</h2>
+              <p class="mont">Lorem ipsum dolor sit</p>
+            </div>
+          </div>
+          <div class="button effectBtn">
+            <span> All News </span>
+          </div>
+        </div>
+        <div class="newsList">
+          <div
+            class="d-flex justify-content-between new"
+            v-for="item in faNewsItems"
+            :key="item.id"
+            :id="`new${item.id}`"
+          >
+            <img :src="item.image" alt="" />
+            <div class="d-flex flex-column justify-content-between">
+              <div class="titleAndText">
+                <h3 class="title">{{ item.title }}</h3>
+                <p class="text">{{ item.text }}</p>
+              </div>
+              <div class="number mont">0{{ item.id }}.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer lang="fa" />
     </div>
     <MouseEffect />
   </div>
@@ -246,6 +440,78 @@ export default {
           text: "The casting unit of this complex uses a tilting melting furnace and an ingot casting furnace, both of which have a capacity of 12 tons per shape.....",
         },
       ],
+      faUnitItems: [
+        {
+          id: 1,
+          title: "واحد بازرگانی",
+          text: "رسالت این واحد تامین مواد اولیه و ماشین آلات مورد نیاز خطوط تولید شامل واحد ریخته گری، اکستروژن، رنگ پودری، آبکاری و دکورال میباشد. این مجموعه با استفاده از پرسنل متخصص و مجرب...",
+        },
+        {
+          id: 2,
+          title: "واحد فروش",
+          text: "شرح وظایف در این واحد ارائه بهترین خدمات در زمینه فروش، پشتیبانی، مشاوره، نظرسنجی و اعطای نمایندگی در تمامی شهر و مراکز استانهای داخلی و کشورهای همسایه می باشد،...",
+        },
+        {
+          id: 3,
+          title: "واحد ریخته گری",
+          text: "این شرکت توانایی تولید انواع بیلت های آلومینیومی قطر 5 تا 8 اینج از گروه های آلیاژی 1000 تا 7000 دارد و با در اختیار داشتن دو کوره ذوب DC (DIRECT CHILL EASTING) کج شونده و...",
+        },
+        {
+          id: 4,
+          title: "واحد طراحی و ساخت قالب",
+          text: "وظایف اصلی این واحد طراحی و امکان سنجی تولید انواع مقاطع اختصاصی ، ساخت و اصلاح قالب ها میباشد طراحی اولیه قالب ها بر اساس پیشنهاد های ارایه شده...",
+        },
+        {
+          id: 5,
+          title: "واحد اکستروژن",
+          text: "واحد اکستروژن این مجموعه با در اختیار داشتن سه دستگاه پرس اکستروژن 1600 و 1800 و2000 تنی توان انجام عملیات اکستروژن انواع آلیاژ های اکسترودی آلومینیوم...",
+        },
+        {
+          id: 6,
+          title: "واحد اجینگ",
+          text: "عملیات حرارتی و یا به عبارتی دیگر کوره اجینگ پروفیل های آلومینیوم جهت هرچه مقاوم تر کردن و بالا بردن سختی پروفیل های تولید شده انجام میشود ...",
+        },
+        {
+          id: 7,
+          title: "واحد آبکاری",
+          text: "تشکیل یک لایه نازک اکسیدی بر روی قطعات آلومینیومی را که باعث افزایش سختی مقاومت در برابر خوردگی، و تغییر برخی از خصوصیات فیزیکی آن میشود آبکاری (آنادایز گویند لایه اکسید...",
+        },
+        {
+          id: 8,
+          title: "واحد  آنادایز",
+          text: "مکانیزم کلی عمل آنادایز بدین صورت است که جریان مستقیم برق از مایع الکترولیت مناسبی می گذرد که در آن آلومینیوم آند بوده و فلز مناسب دیگری کاتد می باشد",
+        },
+        {
+          id: 9,
+          title: "واحد رنگ الکترواستاتیک",
+          text: "واحد رنگ شرکت پیمان پروفیل آسیا مجهز به دو خط رنگ الکترواستاتیک تمام اتوماتیک بوده که با بهره گیری از خطوط انتقال هوایی (کانوایر)، کوره پیش گرم و کوره پخت قادر به پاشش ...",
+        },
+        {
+          id: 10,
+          title: "واحد دکورال",
+          text: "واحد دکورال این مجموعه با در اختیار داشتن ماشین آلات و امکانات مورد نیاز خود اجرای طرح چوب ، گرانیت و یا نقش های فانتزی را بر روی کلیه سطوح آلومینیومی تا حداکثر ابعاد ...",
+        },
+        {
+          id: 11,
+          title: "واحد آزمایشگاه",
+          text: "آزمایشگاه متالوژی مجموعه با در اختیار داشتن تجهیزات زیر قادر به بررسی خواص متالوژیکی و فیزیکی مواد فلزی می باشد...",
+        },
+        {
+          id: 12,
+          title: "واحد کنترل کیفیت",
+          text: "جدا از تجهیزات تولیدی که برای دستیابی بر ظرفیت و مرغوبیت مورد نیاز لازم است ،کنترل کیفیت و بهبود مستمر آن همواره از دغدغه های این مجموعه بوده است...",
+        },
+        {
+          id: 13,
+          title: "واحد بسته بندی و لیبل",
+          text: "تمامی محصولات تولید شده در این مجتمع پس از کنترل نهایی با لیبل های محافظ مخصوص با آرم PPA و Arall پوشش داده می شود. با بکارگیری ...",
+        },
+        {
+          id: 14,
+          title: "واحد انبار",
+          text: "محصولات تولید شده پس از مراحل بسته بندی و لیبل گذاری مطابق یک سیستم منظم و طبقه بندی شده و تا زمان ارسال و تحویل به مشتری در انبار نگهداری می گردند...",
+        },
+      ],
       newsItems: [
         {
           id: 1,
@@ -270,6 +536,26 @@ export default {
           text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi Arcu cursus
                 vitae congue mauris rhoncus aenean vel elit scelerisque ...`,
+        },
+      ],
+      faNewsItems: [
+        {
+          id: 1,
+          image: "/images/homeNew1.jpg",
+          title: "لورم ایپسوم متن",
+          text: `لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است ...`,
+        },
+        {
+          id: 2,
+          image: "/images/homeNew2.jpg",
+          title: "لورم ایپسوم متن",
+          text: `لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است ...`,
+        },
+        {
+          id: 3,
+          image: "/images/homeNew3.jpg",
+          title: "لورم ایپسوم متن",
+          text: `لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است ...`,
         },
       ],
       video: false,

@@ -2,8 +2,6 @@
   width: 100%;
   z-index: 99999;
   position: relative;
-  width: 685px;
-  height: 605px;
   .circle {
     display: inline-block;
     width: 3px;
@@ -11,7 +9,6 @@
     transition: background-color 0.5s;
     transition: width 0.5s;
     transition: translateX 0.5s;
-
     border-radius: 50%;
     position: absolute;
   }
