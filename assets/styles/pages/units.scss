@@ -1,0 +1,116 @@
+.units {
+  background: #0c0f1c;
+  .enUnits {
+    * {
+      z-index: 99999 !important;
+      position: relative;
+    }
+    .topDiv {
+      padding: 0px 260px;
+      margin-bottom: 180px;
+      position: relative;
+      &::before {
+        content: "";
+        width: 864px;
+        height: 864px;
+        display: inline-block;
+        position: absolute;
+        left: -500px;
+        bottom: -300px;
+        z-index: -1;
+        background: rgba(0, 129, 255, 0.63);
+        filter: blur(200px);
+      }
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        color: #ffffff;
+      }
+      h1 {
+        max-width: 564px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 98px;
+        color: #ffffff;
+        margin-top: 37px;
+        margin-bottom: 47px;
+      }
+      p {
+        max-width: 664px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 45px;
+        text-align: justify;
+        color: #ffffff;
+      }
+    }
+    .lineDiv {
+      margin-bottom: 200px;
+      &::before {
+        content: "";
+        width: 675px;
+        height: 675px;
+        display: inline-block;
+        position: absolute;
+        right: 100px;
+        bottom: 300px;
+        z-index: -1;
+        background: rgba(0, 129, 255, 0.63);
+        filter: blur(200px);
+      }
+    }
+    .myUnits {
+      .unit {
+        padding: 200px 260px;
+        background: #0c0f1c;
+        width: 100%;
+        img {
+          width: 645px;
+        }
+        h2 {
+          max-width: 530px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 80px;
+          line-height: 98px;
+          color: #ffffff;
+          margin-bottom: 30px;
+        }
+        p {
+          max-width: 653px;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+          text-align: justify;
+          color: #ffffff;
+        }
+        a {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          color: #0094ff;
+          margin-top: 18px;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+      .whiteBack {
+        background-color: #ffffff;
+        h2 {
+          color: #0c0f1c;
+        }
+        p {
+          color: #0c0f1c;
+        }
+      }
+      .unitFooter {
+        margin-top: 180px;
+      }
+    }
+  }
+}
