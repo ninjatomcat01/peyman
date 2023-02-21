@@ -141,14 +141,7 @@
         </div>
       </div>
       <div
-        class="
-          animationImage
-          col-12
-          d-flex
-          justify-content-center
-          align-items-center
-          px-0
-        "
+        class="animationImage col-12 d-flex justify-content-center align-items-center px-0"
       >
         <img src="/images/animationImage.png" v-show="!video" id="trigger" />
         <img
@@ -325,14 +318,7 @@
         </div>
       </div>
       <div
-        class="
-          animationImage
-          col-12
-          d-flex
-          justify-content-center
-          align-items-center
-          px-0
-        "
+        class="animationImage col-12 d-flex justify-content-center align-items-center px-0"
       >
         <img src="/images/animationImage.png" v-show="!video" id="trigger" />
         <img
@@ -590,7 +576,6 @@ export default {
       ) {
         this.video = false;
       }
-      console.log(document.getElementById("trigger").style.top);
     });
   },
 
