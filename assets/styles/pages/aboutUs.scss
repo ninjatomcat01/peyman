@@ -1,6 +1,8 @@
 .aboutUs {
   background: #0c0f1c;
   .enAboutUs {
+    overflow: hidden;
+
     * {
       z-index: 99999 !important;
       position: relative;
@@ -161,6 +163,8 @@
     }
   }
   .faAboutUs {
+    overflow: hidden;
+
     * {
       z-index: 99999 !important;
       position: relative;
@@ -176,8 +180,8 @@
         height: 864px;
         display: inline-block;
         position: absolute;
-        right: -500px;
-        bottom: -300px;
+        right: -300px;
+        bottom: -400px;
         z-index: -1;
         background: rgba(0, 129, 255, 0.63);
         filter: blur(200px);
@@ -225,8 +229,8 @@
         border-bottom: 2px solid #0096ff;
         h2 {
           font-style: normal;
-          font-weight: 700;
-          font-size: 80px;
+          font-weight: 300;
+          font-size: 50px;
           color: #ffffff;
           margin-bottom: 25px;
         }
@@ -237,7 +241,7 @@
             color: #0096ff;
             span {
               font-style: normal;
-              font-weight: 500;
+              font-weight: 400;
               font-size: 20px;
               line-height: 30px;
               text-align: justify;
@@ -276,9 +280,22 @@
         color: #ffffff;
         margin-bottom: 25px;
       }
+      h4 {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        color: #ffffff;
+        .blueLine {
+          height: 8px;
+          width: 90px;
+          margin-right: 20px;
+          background-color: #027cd8;
+          display: inline-block;
+        }
+      }
       & > p {
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         font-size: 20px;
         line-height: 27px;
         text-align: justify;
@@ -288,18 +305,18 @@
       .items {
         margin-top: 100px;
         .item {
-          max-width: 600px;
-          padding-left: 75px;
+          max-width: 475px;
+          padding-right: 75px;
           margin-bottom: 150px;
           height: fit-content;
-          border-left: 3px solid #0094ff;
+          border-right: 3px solid #0094ff;
           img {
             height: 90px;
             margin-bottom: 34px;
           }
           h3 {
             font-style: normal;
-            font-weight: 600;
+            font-weight: 300;
             font-size: 25px;
             line-height: 30px;
             text-align: justify;
@@ -318,6 +335,49 @@
         }
         .item2 {
           margin-top: 150px;
+        }
+      }
+    }
+    .certificates {
+      h2 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        color: #ffffff;
+      }
+      h3 {
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 80px;
+        color: #ffffff;
+        .blueLine {
+          height: 8px;
+          width: 90px;
+          margin-right: 20px;
+          background-color: #027cd8;
+          display: inline-block;
+        }
+      }
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #ffffff;
+        margin-top: 60px;
+        margin-bottom: 94px;
+      }
+      .padd {
+        padding: 0px 260px;
+      }
+      .images {
+        padding: 0px 230px;
+        margin-bottom: 400px;
+        & > img {
+          width: 24px;
+          cursor: pointer;
+        }
+        .image {
+          width: 311px;
         }
       }
     }
