@@ -79,7 +79,63 @@
     </div>
     <div class="faContactUs irancell" v-else>
       <Header lang="fa" @change="change" />
-
+      <div class="topDiv d-flex">
+        <div>
+          <h3 class="mont">Contact Us</h3>
+          <h1>با ما در تماس باشید</h1>
+          <Lines2 myVh="477" myVw="570" />
+        </div>
+        <div class="informations">
+          <div class="bordered d-flex align-items-center">
+            <img src="/icons/location.svg" alt="" />
+            <h2>آدرس</h2>
+          </div>
+          <p>ایران، اراک، شهرک صنعتی قطب، خیابان تلاش، انتهای خیابان توسعه 2</p>
+          <div class="bordered d-flex align-items-center marginT">
+            <img src="/icons/calling.svg" alt="" />
+            <h2>تلفن</h2>
+          </div>
+          <p>مدیر عامل : ۰۹۱۸۱۶۱۳۶۲۴ - ۰۹۱۸۳۴۹۳۹۸۵</p>
+          <p>مدیر تولید : 09183617640</p>
+          <p>مدیر بازرگانی و فروش: ۰۹۱۲۱۷۶۳۴۵۳</p>
+          <div class="bordered d-flex align-items-center marginT">
+            <img src="/icons/sms.svg" alt="" />
+            <h2>ایمیل</h2>
+          </div>
+          <p class="mont">Info@peymanprofile.com</p>
+          <div class="bordered d-flex align-items-center marginT">
+            <img src="/icons/heart.svg" alt="" />
+            <h2>شبکه های اجتماعی</h2>
+          </div>
+          <div class="d-flex socials">
+            <div class="whiteCircle">
+              <img src="/icons/twitter.svg" alt="" />
+            </div>
+            <div class="whiteCircle">
+              <img src="/icons/instagram.svg" alt="" />
+            </div>
+            <div class="whiteCircle"><img src="/icons/in.svg" alt="" /></div>
+          </div>
+        </div>
+      </div>
+      <div class="conversation d-flex justify-content-between">
+        <form action="#">
+          <h2>فرم تماس باما</h2>
+          <p>
+            سوالات خود را با ما در میان بگذارید و ما در اسرع وقت با شما تماس
+            خواهیم گرفت.
+          </p>
+          <div class="d-flex justify-content-between">
+            <input type="text" placeholder="نام" />
+            <input type="email" placeholder="ایمیل  *" />
+          </div>
+          <textarea placeholder="پیام شما  *" rows="3"></textarea>
+          <button type="submit" class="effectBtn">
+            <span> ارسال </span>
+          </button>
+        </form>
+        <Lines myVh="550" myVw="579" />
+      </div>
       <Footer lang="fa" />
     </div>
     <MouseEffect />
