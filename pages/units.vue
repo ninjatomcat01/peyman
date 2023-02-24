@@ -270,8 +270,8 @@ export default {
       gsap.set(allSectionsNotFirst, { position: "absolute" });
 
       var dur = 0.5,
-        next = 3,
-        dur = 1,
+        next = 6,
+        dur = 4,
         tt = 3000;
 
       var action = gsap

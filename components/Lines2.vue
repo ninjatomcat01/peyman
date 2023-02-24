@@ -1,15 +1,15 @@
 <template>
   <div @mouseleave="mouseOut">
     <div
-      class="circles"
+      class="circles2"
       :style="{ height: divVh, width: divVw }"
       @mouseenter="mouseEnter"
       @mousemove="mouseMove"
     ></div>
   </div>
 </template>
-
-<script>
+  
+  <script>
 export default {
   props: ["myVw", "myVh"],
   data() {
@@ -37,12 +37,12 @@ export default {
       for (var y = -10; y <= this.vh - this.height; y += 40) {
         for (var x = 10; x <= this.vw - this.width; x += 40) {
           var line = document.createElement("div");
-          document.getElementsByClassName("circles")[0].append(line);
+          document.getElementsByClassName("circles2")[0].append(line);
           line.style.width = this.width + "px";
           line.style.height = this.height + "px";
           line.style.left = x + "px";
           line.style.top = y + "px";
-          line.className = "circle2";
+          line.className = "circle";
           this.lines.push({
             element: line,
             cx: x + this.width / 2,
@@ -56,7 +56,7 @@ export default {
   methods: {
     mouseEnter() {
       this.$store.commit("mouseEffectOff");
-      const circles = document.getElementsByClassName("circle2");
+      const circles = document.getElementsByClassName("circle");
       for (let i = 0; i < circles.length; i++) {
         circles[i].style.width = "13px";
         circles[i].style.backgroundColor = "white";
@@ -103,7 +103,7 @@ export default {
     },
     mouseOut() {
       this.$store.commit("mouseEffectOn");
-      const circles = document.getElementsByClassName("circle2");
+      const circles = document.getElementsByClassName("circle");
       for (let i = 0; i < circles.length; i++) {
         circles[i].style.width = "3px";
         circles[i].style.backgroundColor = "";
@@ -115,21 +115,21 @@ export default {
   },
   computed: {
     changeColor() {
-      const circle = document.getElementsByClassName("circle2");
+      const circle = document.getElementsByClassName("circle");
       for (let i = 0; i < circle.length; i++) {
         const random = Math.floor(Math.random() * 11);
         if (random > 5) {
-          circle[i].className = "circle2 grayCircle2";
+          circle[i].className = "circle grayCircle";
         } else {
-          circle[i].className = "circle2 whitCircle2";
+          circle[i].className = "circle whitCircle";
         }
       }
       setInterval(() => {
         for (let i = 0; i < circle.length; i++) {
-          if (circle[i].className == "circle2 whitCircle2") {
-            circle[i].className = "circle2 grayCircle2";
+          if (circle[i].className == "circle whitCircle") {
+            circle[i].className = "circle grayCircle";
           } else {
-            circle[i].className = "circle2 whitCircle2";
+            circle[i].className = "circle whitCircle";
           }
         }
       }, 2000);
@@ -137,6 +137,6 @@ export default {
   },
 };
 </script>
-
-<style>
+  
+  <style>
 </style>
