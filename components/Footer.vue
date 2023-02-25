@@ -19,16 +19,16 @@
             <span> IRAN </span>
           </p>
           <div class="d-flex flex-column">
-            <router-link to="/">Who We Are</router-link>
-            <router-link to="/">Activities</router-link>
+            <router-link to="/aboutUs">Who We Are</router-link>
+            <router-link to="/products">Activities</router-link>
           </div>
           <div class="d-flex flex-column">
-            <router-link to="/">Units</router-link>
-            <router-link to="/">News</router-link>
+            <router-link to="/units">Units</router-link>
+            <router-link to="/news">News</router-link>
           </div>
           <div class="d-flex flex-column">
-            <router-link to="/">Media</router-link>
-            <router-link to="/">Get In Touch</router-link>
+            <router-link to="/media">Media</router-link>
+            <router-link to="/contactUs">Get In Touch</router-link>
           </div>
         </div>
         <div class="d-flex">
@@ -59,16 +59,16 @@
             ایران، اراک، شهرک صنعتی قطب، خیابان همت، 4، انتهای خیابان توسعه 2
           </p>
           <div class="d-flex flex-column">
-            <router-link to="/">درباره ی ما</router-link>
-            <router-link to="/">محصولات</router-link>
+            <router-link to="/aboutUs">درباره ی ما</router-link>
+            <router-link to="/products">محصولات</router-link>
           </div>
           <div class="d-flex flex-column">
-            <router-link to="/">واحد های تولیدی</router-link>
-            <router-link to="/">اخبار</router-link>
+            <router-link to="/units">واحد های تولیدی</router-link>
+            <router-link to="/news">اخبار</router-link>
           </div>
           <div class="d-flex flex-column">
-            <router-link to="/">گالری</router-link>
-            <router-link to="/">تماس با ما</router-link>
+            <router-link to="/media">گالری</router-link>
+            <router-link to="/contactUs">تماس با ما</router-link>
           </div>
         </div>
         <div class="d-flex">

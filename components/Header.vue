@@ -4,16 +4,22 @@
       <img src="/images/whiteLogo.png" class="whiteLogo" />
       <div class="d-flex">
         <router-link to="/" :class="{ active: page == 1 }"> Home </router-link>
-        <router-link to="/" :class="{ active: page == 2 }">
+        <router-link to="/aboutUs" :class="{ active: page == 2 }">
           Who We Are
         </router-link>
-        <router-link to="/" :class="{ active: page == 3 }">
+        <router-link to="/products" :class="{ active: page == 3 }">
           Products
         </router-link>
-        <router-link to="/" :class="{ active: page == 4 }"> Units </router-link>
-        <router-link to="/" :class="{ active: page == 5 }"> Media </router-link>
-        <router-link to="/" :class="{ active: page == 6 }"> News </router-link>
-        <router-link to="/" :class="{ active: page == 7 }">
+        <router-link to="/units" :class="{ active: page == 4 }">
+          Units
+        </router-link>
+        <router-link to="/media" :class="{ active: page == 5 }">
+          Media
+        </router-link>
+        <router-link to="/news" :class="{ active: page == 6 }">
+          News
+        </router-link>
+        <router-link to="/contactUs" :class="{ active: page == 7 }">
           Get In Touch
         </router-link>
         <div class="d-flex">
@@ -33,18 +39,22 @@
         <router-link to="/" :class="{ active: page == 1 }">
           صفحه اصلی
         </router-link>
-        <router-link to="/" :class="{ active: page == 2 }">
+        <router-link to="/aboutUs" :class="{ active: page == 2 }">
           درباره ی ما
         </router-link>
-        <router-link to="/" :class="{ active: page == 3 }">
+        <router-link to="/products" :class="{ active: page == 3 }">
           محصولات
         </router-link>
-        <router-link to="/" :class="{ active: page == 4 }">
+        <router-link to="/units" :class="{ active: page == 4 }">
           واحد های تولیدی
         </router-link>
-        <router-link to="/" :class="{ active: page == 5 }"> گالری </router-link>
-        <router-link to="/" :class="{ active: page == 6 }"> اخبار </router-link>
-        <router-link to="/" :class="{ active: page == 7 }">
+        <router-link to="/media" :class="{ active: page == 5 }">
+          گالری
+        </router-link>
+        <router-link to="/news" :class="{ active: page == 6 }">
+          اخبار
+        </router-link>
+        <router-link to="/contactUs" :class="{ active: page == 7 }">
           تماس با ما
         </router-link>
       </div>
