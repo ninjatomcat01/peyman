@@ -162,6 +162,30 @@
         color: #ffffff;
       }
     }
+    .scroll {
+      padding: 0px 260px;
+      margin-bottom: 50px;
+      .scrollTitle {
+        font-weight: 400;
+        font-size: 15px;
+        color: #ffffff;
+      }
+      .scrollIcon {
+        border-radius: 30px;
+        border: 1px solid #ffffff;
+        height: 50px;
+        width: 28px;
+        margin-left: 12px;
+        padding: 0px 10px;
+        .scrollCircle {
+          display: inline-block;
+          border-radius: 50%;
+          width: 6px;
+          height: 6px;
+          background-color: white;
+        }
+      }
+    }
     .lineDiv {
       margin-bottom: 200px;
       &::before {

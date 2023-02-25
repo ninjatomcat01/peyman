@@ -11,6 +11,7 @@
           purus viverra accumsan in nisl nisi Arcu cursus.
         </p>
       </div>
+
       <div class="lineDiv">
         <Lines myVw="1920" myVh="360" />
       </div>
@@ -44,6 +45,12 @@
           از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و
           سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز.
         </p>
+      </div>
+      <div class="scroll d-flex justify-content-end align-items-center">
+        <div class="scrollIcon">
+          <span class="scrollCircle"></span>
+        </div>
+        <span class="scrollTitle">Scroll Down</span>
       </div>
       <div class="lineDiv">
         <Lines myVw="1920" myVh="360" />
