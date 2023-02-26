@@ -1,6 +1,6 @@
 <template>
-  <div class="blogs">
-    <div class="enBlogs mont" v-if="language == 'en'">
+  <div class="products">
+    <div class="enProducts mont" v-if="language == 'en'">
       <Header lang="eng" @change="change" />
       <div class="topDiv">
         <h3>products</h3>
@@ -76,7 +76,7 @@
       </div>
       <Footer lang="en" />
     </div>
-    <div class="faBlogs irancell" v-else>
+    <div class="faProducts irancell" v-else>
       <Header lang="fa" @change="change" />
       <div class="topDiv">
         <h3 class="mont">Products</h3>
