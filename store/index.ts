@@ -1,6 +1,6 @@
 
 export const state = () => ({
-  lang: 'fa',
+  lang: 'en',
   mouseEffect: true as boolean,
 });
 export const mutations = {

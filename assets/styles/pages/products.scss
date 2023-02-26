@@ -1,0 +1,275 @@
+.blogs {
+  background: #0c0f1c;
+  .enBlogs {
+    * {
+      z-index: 99999 !important;
+      position: relative;
+    }
+    .topDiv {
+      padding: 0px 260px;
+      margin-bottom: 180px;
+      position: relative;
+      &::before {
+        content: "";
+        width: 864px;
+        height: 864px;
+        display: inline-block;
+        position: absolute;
+        left: -500px;
+        bottom: -300px;
+        z-index: -1;
+        background: rgba(0, 129, 255, 0.63);
+        filter: blur(200px);
+      }
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        color: #ffffff;
+      }
+      h1 {
+        max-width: 600px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 98px;
+        color: #ffffff;
+        margin-top: 37px;
+        margin-bottom: 47px;
+      }
+      p {
+        max-width: 664px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 45px;
+        text-align: justify;
+        color: #ffffff;
+      }
+    }
+    .lineDiv {
+      margin-bottom: 200px;
+      &::before {
+        content: "";
+        width: 675px;
+        height: 675px;
+        display: inline-block;
+        position: absolute;
+        right: 100px;
+        bottom: 300px;
+        z-index: -1;
+        background: rgba(0, 129, 255, 0.63);
+        filter: blur(200px);
+      }
+    }
+    .homeProduct1 {
+      padding-left: 260px;
+      .texts {
+        h2 {
+          font-weight: 700;
+          font-size: 80px;
+          line-height: 98px;
+          color: #ffffff;
+          padding-left: 25px;
+          margin-bottom: 38px;
+          border-left: 7px solid #027cd8;
+          span {
+            color: #027cd8;
+          }
+        }
+        p {
+          max-width: 424px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 35px;
+          text-align: justify;
+          color: #ffffff;
+          margin-bottom: 38px;
+        }
+      }
+      img {
+        width: 55%;
+      }
+    }
+    .homeProduct2 {
+      padding-left: 260px;
+      .texts {
+        h2 {
+          font-weight: 700;
+          font-size: 80px;
+          line-height: 98px;
+          color: #ffffff;
+          padding-left: 25px;
+          margin-bottom: 38px;
+          border-left: 7px solid #763dff;
+          span {
+            color: #763dff;
+          }
+        }
+        p {
+          max-width: 424px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 35px;
+          text-align: justify;
+          color: #ffffff;
+          margin-bottom: 38px;
+        }
+      }
+      img {
+        width: 60%;
+      }
+    }
+    .homeProduct3 {
+      padding-left: 260px;
+      .texts {
+        h2 {
+          font-weight: 700;
+          font-size: 80px;
+          line-height: 98px;
+          color: #ffffff;
+          padding-left: 25px;
+          margin-bottom: 38px;
+          border-left: 7px solid #009f83;
+          span {
+            color: #009f83;
+          }
+        }
+        p {
+          max-width: 424px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 35px;
+          text-align: justify;
+          color: #ffffff;
+          margin-bottom: 38px;
+        }
+      }
+      img {
+        width: 55%;
+      }
+    }
+    .homeProduct4 {
+      padding-left: 260px;
+      margin-top: 200px;
+      margin-bottom: 420px;
+      .texts {
+        h2 {
+          font-weight: 700;
+          font-size: 80px;
+          line-height: 98px;
+          color: #ffffff;
+          padding-left: 25px;
+          margin-bottom: 38px;
+          max-width: 400px;
+          border-left: 7px solid #00f0ff;
+          span {
+            color: #00f0ff;
+          }
+        }
+        p {
+          max-width: 424px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 35px;
+          text-align: justify;
+          color: #ffffff;
+          margin-bottom: 38px;
+        }
+      }
+      img {
+        width: 55%;
+      }
+    }
+  }
+  .faBlogs {
+    overflow: hidden;
+    * {
+      z-index: 99999 !important;
+      position: relative;
+      direction: rtl;
+      text-align: right;
+    }
+    .topDiv {
+      padding: 0px 260px;
+      margin-bottom: 180px;
+      position: relative;
+      &::before {
+        content: "";
+        width: 864px;
+        height: 864px;
+        display: inline-block;
+        position: absolute;
+        right: -200px;
+        bottom: -300px;
+        z-index: -1;
+        background: rgba(0, 129, 255, 0.63);
+        filter: blur(200px);
+      }
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        color: #ffffff;
+      }
+      h1 {
+        max-width: 750px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 98px;
+        color: #ffffff;
+        margin-top: 37px;
+        margin-bottom: 47px;
+      }
+      p {
+        max-width: 664px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 45px;
+        text-align: justify;
+        color: #ffffff;
+      }
+    }
+    .scroll {
+      padding: 0px 260px;
+      margin-bottom: 50px;
+      .scrollTitle {
+        font-weight: 400;
+        font-size: 15px;
+        color: #ffffff;
+      }
+      .scrollIcon {
+        border-radius: 30px;
+        border: 1px solid #ffffff;
+        height: 50px;
+        width: 28px;
+        margin-left: 12px;
+        padding: 0px 10px;
+        .scrollCircle {
+          display: inline-block;
+          border-radius: 50%;
+          width: 6px;
+          height: 6px;
+          background-color: white;
+        }
+      }
+    }
+    .lineDiv {
+      margin-bottom: 200px;
+      &::before {
+        content: "";
+        width: 675px;
+        height: 675px;
+        display: inline-block;
+        position: absolute;
+        left: 100px;
+        bottom: 250px;
+        z-index: -1;
+        background: rgba(0, 129, 255, 0.63);
+        filter: blur(200px);
+      }
+    }
+  }
+}
