@@ -34,7 +34,7 @@ export default {
       this.vh = this.myVh;
       this.divVw = this.myVw + "px";
       this.divVh = this.myVh + "px";
-      for (var y = -10; y <= this.vh - this.height; y += 40) {
+      for (var y = 10; y <= this.vh - this.height; y += 40) {
         for (var x = 10; x <= this.vw - this.width; x += 40) {
           var line = document.createElement("div");
           document.getElementsByClassName("circles")[0].append(line);

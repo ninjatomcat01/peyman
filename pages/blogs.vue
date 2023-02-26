@@ -80,7 +80,7 @@
         <span class="scrollTitle">Scroll Down</span>
       </div>
       <div class="lineDiv">
-        <Lines myVw="1920" myVh="360" />
+        <Lines myVw="1920" myVh="100" />
       </div>
       <div class="blogList">
         <div

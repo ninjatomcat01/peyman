@@ -271,5 +271,96 @@
         filter: blur(200px);
       }
     }
+    .homeProduct1 {
+      padding-right: 260px;
+      .texts {
+        h2 {
+          font-weight: 700;
+          max-width: 420px;
+          font-size: 70px;
+          line-height: 98px;
+          color: #ffffff;
+          padding-right: 25px;
+          margin-bottom: 38px;
+          border-right: 7px solid #027cd8;
+          span {
+            color: #027cd8;
+          }
+        }
+        p {
+          max-width: 378px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 35px;
+          text-align: justify;
+          color: #ffffff;
+          margin-bottom: 38px;
+        }
+      }
+      img {
+        width: 55%;
+      }
+    }
+    .homeProduct2 {
+      padding-right: 260px;
+      .texts {
+        h2 {
+          font-weight: 700;
+          max-width: 420px;
+          font-size: 70px;
+          line-height: 98px;
+          color: #ffffff;
+          padding-right: 25px;
+          margin-bottom: 38px;
+          border-right: 7px solid #763dff;
+          span {
+            color: #763dff;
+          }
+        }
+        p {
+          max-width: 378px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 35px;
+          text-align: justify;
+          color: #ffffff;
+          margin-bottom: 38px;
+        }
+      }
+      img {
+        width: 60%;
+      }
+    }
+    .homeProduct3 {
+      padding-right: 260px;
+      margin-bottom: 100px;
+      .texts {
+        h2 {
+          font-weight: 700;
+          max-width: 420px;
+          font-size: 70px;
+          line-height: 98px;
+          color: #ffffff;
+          padding-right: 25px;
+          margin-bottom: 38px;
+          border-right: 7px solid #009f83;
+          span {
+            color: #009f83;
+          }
+        }
+        p {
+          max-width: 378px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 35px;
+          text-align: justify;
+          color: #ffffff;
+          margin-bottom: 38px;
+        }
+      }
+      img {
+        width: 55%;
+      }
+    }
   }
 }
