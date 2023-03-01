@@ -165,7 +165,7 @@
             :key="item.id"
             :id="`new${item.id}`"
           >
-            <img :src="item.image" alt="" />
+            <img :src="item.image" alt="" data-aos="zoom-in" />
             <div class="d-flex flex-column justify-content-between">
               <div class="titleAndText">
                 <h3 class="title">{{ item.title }}</h3>
@@ -355,7 +355,7 @@
             :key="item.id"
             :id="`new${item.id}`"
           >
-            <img :src="item.image" alt="" />
+            <img :src="item.image" alt="" data-aos="zoom-in" />
             <div class="d-flex flex-column justify-content-between">
               <div class="titleAndText">
                 <h3 class="title">{{ item.title }}</h3>
