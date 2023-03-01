@@ -6,7 +6,6 @@
         <div>
           <h3>Contact Us</h3>
           <h1>Get In Touch.</h1>
-
           <Lines2 myVh="477" myVw="570" />
         </div>
         <div class="informations">

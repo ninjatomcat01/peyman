@@ -1,9 +1,15 @@
 .contactUs {
   background: #0c0f1c;
   .enContactUs {
+    * {
+      z-index: 8;
+      position: relative;
+    }
     .topDiv {
       padding: 0px 260px;
       margin-bottom: 400px;
+      padding-top: 250px;
+
       h3 {
         font-style: normal;
         font-weight: 500;
@@ -167,7 +173,7 @@
   .faContactUs {
     overflow: hidden;
     * {
-      z-index: 99999 !important;
+      z-index: 8;
       position: relative;
       direction: rtl;
       text-align: right;
@@ -175,6 +181,8 @@
     .topDiv {
       padding: 0px 260px;
       margin-bottom: 400px;
+      padding-top: 250px;
+
       h3 {
         font-style: normal;
         font-weight: 500;

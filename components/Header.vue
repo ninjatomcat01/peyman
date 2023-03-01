@@ -16,7 +16,7 @@
         <router-link to="/media" :class="{ active: page == 5 }">
           Media
         </router-link>
-        <router-link to="/news" :class="{ active: page == 6 }">
+        <router-link to="/blogs" :class="{ active: page == 6 }">
           News
         </router-link>
         <router-link to="/contactUs" :class="{ active: page == 7 }">
@@ -51,7 +51,7 @@
         <router-link to="/media" :class="{ active: page == 5 }">
           گالری
         </router-link>
-        <router-link to="/news" :class="{ active: page == 6 }">
+        <router-link to="/blogs" :class="{ active: page == 6 }">
           اخبار
         </router-link>
         <router-link to="/contactUs" :class="{ active: page == 7 }">
@@ -91,8 +91,27 @@ export default {
     change() {
       this.$emit("change");
     },
+    handleScroll() {
+      if (window.scrollY == 0) {
+        document.getElementsByClassName("header")[0].style.backgroundColor =
+          "rgba(0, 0, 0, 0)";
+      } else {
+        console.log(window.scrollY);
+        document.getElementsByClassName("header")[0].style.backgroundColor =
+          "rgba(0, 0, 0, 0.5)";
+      }
+    },
   },
   mounted() {
+    if (window.scrollY == 0) {
+      document.getElementsByClassName("header")[0].style.backgroundColor =
+        "rgba(0, 0, 0, 0)";
+    } else {
+      console.log(window.scrollY);
+      document.getElementsByClassName("header")[0].style.backgroundColor =
+        "rgba(0, 0, 0, 0.5)";
+    }
+    window.addEventListener("scroll", this.handleScroll);
     this.language = this.$store.state.lang;
     if (this.$route.fullPath == "/") {
       this.page = 1;

@@ -1,10 +1,14 @@
 .header {
-  z-index: 99999 !important;
+  z-index: 9 !important;
+  width: 100%;
+  position: fixed !important;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 1s;
   .enHeader {
     color: white;
-    padding: 100px 260px;
+    padding: 50px 260px;
     * {
-      z-index: 99999 !important;
+      z-index: 9 !important;
       position: relative;
     }
     .whiteLogo {
@@ -41,10 +45,10 @@
   }
   .faHeader {
     color: white;
-    padding: 100px 233px 100px 260px;
+    padding: 50px 233px 50px 260px;
     direction: rtl;
     * {
-      z-index: 99999 !important;
+      z-index: 9 !important;
     }
     .whiteLogo {
       width: 135px;

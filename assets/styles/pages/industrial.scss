@@ -3,7 +3,7 @@
   .faIndustrial {
     overflow: hidden;
     * {
-      z-index: 99999 !important;
+      z-index: 8;
       position: relative;
       direction: rtl;
       text-align: right;
@@ -12,6 +12,8 @@
       padding: 0px 260px;
       margin-bottom: 180px;
       position: relative;
+      padding-top: 250px;
+
       &::before {
         content: "";
         width: 864px;
