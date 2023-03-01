@@ -69,6 +69,11 @@
       padding: 0px 260px;
       .blog {
         margin-top: 95px;
+        &:hover {
+          .number {
+            color: white;
+          }
+        }
         img {
           width: 48%;
           height: 500px;
@@ -97,6 +102,7 @@
             font-weight: 400;
             font-size: 300px;
             color: #13182e;
+            transition: all 0.5s;
           }
         }
       }
@@ -226,6 +232,11 @@
       padding: 0px 260px;
       .blog {
         margin-top: 95px;
+        &:hover {
+          .number {
+            color: white;
+          }
+        }
         img {
           width: 48%;
           height: 500px;
@@ -254,6 +265,7 @@
             font-weight: 400;
             font-size: 300px;
             color: #13182e;
+            transition: all 0.5s;
           }
         }
       }

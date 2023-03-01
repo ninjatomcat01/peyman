@@ -84,7 +84,7 @@ export default {
   data() {
     return {
       language: "",
-      page: 1,
+      page: 0,
     };
   },
   methods: {
@@ -96,7 +96,6 @@ export default {
         document.getElementsByClassName("header")[0].style.backgroundColor =
           "rgba(0, 0, 0, 0)";
       } else {
-        console.log(window.scrollY);
         document.getElementsByClassName("header")[0].style.backgroundColor =
           "rgba(0, 0, 0, 0.5)";
       }
@@ -107,10 +106,25 @@ export default {
       document.getElementsByClassName("header")[0].style.backgroundColor =
         "rgba(0, 0, 0, 0)";
     } else {
-      console.log(window.scrollY);
       document.getElementsByClassName("header")[0].style.backgroundColor =
         "rgba(0, 0, 0, 0.5)";
     }
+    if (this.$route.path == "/") {
+      this.page = 1;
+    } else if (this.$route.path == "/aboutUs") {
+      this.page = 2;
+    } else if (this.$route.path == "/products") {
+      this.page = 3;
+    } else if (this.$route.path == "/units") {
+      this.page = 4;
+    } else if (this.$route.path == "/media") {
+      this.page = 5;
+    } else if (this.$route.path == "/blogs") {
+      this.page = 6;
+    } else if (this.$route.path == "/contactUs") {
+      this.page = 7;
+    }
+
     window.addEventListener("scroll", this.handleScroll);
     this.language = this.$store.state.lang;
     if (this.$route.fullPath == "/") {

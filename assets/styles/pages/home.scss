@@ -284,11 +284,17 @@
           width: 50%;
           margin-bottom: 210px;
           height: fit-content;
+          &:hover {
+            .number {
+              color: white;
+            }
+          }
           .number {
             font-weight: 400;
             font-size: 300px;
             color: #13182e;
             margin-bottom: 30px;
+            transition: all 0.5s;
           }
           .title {
             font-weight: 500;
@@ -387,6 +393,11 @@
         padding-bottom: 350px;
         .new {
           margin-top: 95px;
+          &:hover {
+            .number {
+              color: white;
+            }
+          }
           img {
             width: 48%;
             height: 500px;
@@ -415,6 +426,7 @@
               font-weight: 400;
               font-size: 300px;
               color: #13182e;
+              transition: all 0.5s;
             }
           }
         }
@@ -741,11 +753,17 @@
           width: 50%;
           margin-bottom: 210px;
           height: fit-content;
+          &:hover {
+            .number {
+              color: white;
+            }
+          }
           .number {
             font-weight: 400;
             font-size: 300px;
             color: #13182e;
             margin-bottom: 30px;
+            transition: all 0.5s;
           }
           .title {
             font-weight: 500;
@@ -867,6 +885,11 @@
         padding-bottom: 350px;
         .new {
           margin-top: 95px;
+          &:hover {
+            .number {
+              color: white;
+            }
+          }
           img {
             width: 48%;
             height: 500px;
@@ -895,6 +918,7 @@
               font-weight: 400;
               font-size: 300px;
               color: #13182e;
+              transition: all 0.5s;
             }
           }
         }
