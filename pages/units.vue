@@ -277,9 +277,9 @@ export default {
       gsap.set(allSectionsNotFirst, { position: "absolute" });
 
       var dur = 0.5,
-        next = 6,
-        dur = 4,
-        tt = 3000;
+        next = 16,
+        dur = 14,
+        tt = 10000;
 
       var action = gsap
         .timeline({

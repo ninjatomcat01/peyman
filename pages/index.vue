@@ -556,22 +556,23 @@ export default {
         scrollTrigger: {
           trigger: "#trigger",
           start: "50% center",
-          end: "=+400 center",
+          end: "=+650 center",
           scrub: true,
           // markers: true,
         },
         scale: 3,
-        top: 230,
+        top: 50,
+        transform: "translateY(400px)",
       });
     }, 10);
     window.addEventListener("scroll", () => {
       if (
-        document.getElementById("trigger").style.top == "230px" &&
+        document.getElementById("trigger").style.top == "50px" &&
         !this.video
       ) {
         this.video = true;
       } else if (
-        document.getElementById("trigger").style.top != "230px" &&
+        document.getElementById("trigger").style.top != "50px" &&
         this.video
       ) {
         this.video = false;
