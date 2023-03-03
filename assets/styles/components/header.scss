@@ -47,11 +47,13 @@
     color: white;
     padding: 50px 233px 50px 260px;
     direction: rtl;
+    max-height: 217px;
     * {
       z-index: 9 !important;
     }
     .whiteLogo {
       width: 135px;
+      height: 117px;
     }
     a {
       margin-left: 50px;
@@ -62,6 +64,28 @@
       padding-bottom: 5px;
       &:hover {
         text-decoration: none;
+      }
+    }
+    .productsLinks {
+      min-width: 150px;
+      max-width: 150px;
+      height: 29px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transition: all 0.5s;
+      padding: 0px 10px 10px 10px;
+      margin-left: 10px;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.5);
+
+        height: 264px;
+      }
+      .underLink {
+        margin-top: 30px !important;
+        margin-left: 0px;
+        min-width: 150px;
+        max-width: 150px;
       }
     }
     .active {

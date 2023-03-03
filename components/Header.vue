@@ -42,9 +42,21 @@
         <router-link to="/aboutUs" :class="{ active: page == 2 }">
           درباره ی ما
         </router-link>
-        <router-link to="/products" :class="{ active: page == 3 }">
-          محصولات
-        </router-link>
+        <div class="productsLinks">
+          <div :class="{ active: page == 3 }">محصولات</div>
+          <router-link to="/products" class="underLink">
+            محصولات تولیدی
+          </router-link>
+          <router-link to="/industrial" class="underLink">
+            محصولات صنعتی
+          </router-link>
+          <router-link to="/construction" class="underLink">
+            محصولات ساختمانی
+          </router-link>
+          <router-link to="/exclusive" class="underLink">
+            محصولات اختصاصی
+          </router-link>
+        </div>
         <router-link to="/units" :class="{ active: page == 4 }">
           واحد های تولیدی
         </router-link>
@@ -114,6 +126,12 @@ export default {
     } else if (this.$route.path == "/aboutUs") {
       this.page = 2;
     } else if (this.$route.path == "/products") {
+      this.page = 3;
+    } else if (this.$route.path == "/exclusive") {
+      this.page = 3;
+    } else if (this.$route.path == "/industrial") {
+      this.page = 3;
+    } else if (this.$route.path == "/construction") {
       this.page = 3;
     } else if (this.$route.path == "/units") {
       this.page = 4;
