@@ -1,4 +1,4 @@
-export default defineNuxtConfig{
+export default{
   ssr: true,
   target: 'server',
     
