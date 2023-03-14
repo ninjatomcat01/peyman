@@ -1,4 +1,4 @@
-export default {
+export default defineNuxtConfig{
   ssr: true,
 
   // Global page headers: https://go.nuxtjs.dev/config-head
