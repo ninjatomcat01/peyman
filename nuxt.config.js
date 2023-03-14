@@ -1,6 +1,7 @@
 export default defineNuxtConfig{
   ssr: true,
-
+  target: 'server',
+    
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: "peyman",
